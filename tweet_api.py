@@ -39,4 +39,3 @@ def print_tweet(username,num):
         print('Description: ')
         google_api.google_image_detect(media_url)
     print('-----------------------------------------')
-    

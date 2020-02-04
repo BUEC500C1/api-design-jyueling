@@ -2,9 +2,9 @@ from google.cloud import vision
 from google.cloud.vision import types
 import os
 
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="homework2-38b13453b129.json"
+
 def google_image_detect(url):
-    os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="homework2-38b13453b129.json"
-    
     client = vision.ImageAnnotatorClient()
 
     img = vision.types.Image()
