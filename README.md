@@ -13,6 +13,10 @@ Get credentials of Twitter API and Google Vision API
 	```python
   os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="yourfilename.json"
   ```
+## CB and CI
+
+Test case pass when check locally. Due to security concern, the credentials are all removed so that test failed here.
+  
 ## Usage
 
 There is an example in main.py
@@ -20,3 +24,7 @@ There is an example in main.py
    tweet_api.print_tweet("@Twitter",10)
 ```
 This API get the 10 tweets from Twitter. It prints out the twitter feeds and description of the images.
+
+## Example Result
+
+
