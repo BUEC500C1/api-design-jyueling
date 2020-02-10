@@ -27,4 +27,4 @@ This API get the 10 tweets from Twitter. It prints out the twitter feeds and des
 
 ## Example Result
 ![Image text](https://github.com/BUEC500C1/api-design-jyueling/raw/master/example_result.png)
-
+The result would show the tweet itself. And if there is a image, it would show the image url and descriptions by using Google Vision API
