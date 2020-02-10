@@ -26,5 +26,5 @@ There is an example in main.py
 This API get the 10 tweets from Twitter. It prints out the twitter feeds and description of the images.
 
 ## Example Result
-
+![Image text](https://github.com/BUEC500C1/api-design-jyueling/raw/master/example_result.png)
 
